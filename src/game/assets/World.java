@@ -1,5 +1,6 @@
 package game.assets;
 
+import game.utils.FileToStringLoader;
 import game.utils.WorldGenerator;
 import gfx.assets.WorldTile;
 import gfx.utils.ImageHandler;
@@ -15,6 +16,9 @@ public class World {
 
     private WorldGenerator worldGenerator;
 
+    private int[][] worldTileArray;
+
+    /*
     private int[][] worldTileArray = {{1, 1, 1, 1, 1},
                                       {1, 7, 1, 7, 1},
                                       {1, 1, 1, 1, 1},
@@ -22,9 +26,17 @@ public class World {
                                       {1, 1, 7, 1, 1},
                                       {1, 1, 1, 1, 1}};
 
-    public World() {
-        worldGenerator = new WorldGenerator(10, 10);
+     */
+    public World(int worldRows, int worldCols) {
+        this.worldRows = worldRows;
+        this. worldCols = worldCols;
+
+        worldGenerator = new WorldGenerator(worldRows, worldCols);
         imageHandler = new ImageHandler();
+
+        worldTileArray = new int[worldRows][worldCols];
+
+        loadWorld(worldGenerator.getWORLD_FULL_DIRECTORY_NAME());
     }
 
     public void tick() {
@@ -33,7 +45,7 @@ public class World {
     public void render(Graphics g) {
         for(int r = 0; r <  worldTileArray.length; r++) {
             for(int c = 0; c < worldTileArray[r].length; c++) {
-                getWorldTile(r, c).render(g, c * ImageHandler.getSPRITE_TILE_WIDTH(), r * ImageHandler.getSPRITE_TILE_HEIGHT());
+                getWorldTile(r, c).render(g, c * WorldTile.defaultWorldTileWidth, r * WorldTile.defaultWorldTileHeight);
             }
         }
     }
@@ -44,6 +56,19 @@ public class World {
             return imageHandler.getWorldTile(1);
         }
         return tile;
+    }
+
+    private void loadWorld(String path) {
+        String file = FileToStringLoader.loadFileAsString(path);
+        String[] tokens = file.split("\\s+");
+
+        worldTileArray = new int[worldRows][worldCols];
+
+        for(int r = 0; r < worldRows; r++) {
+            for(int c = 0; c < worldCols; c++) {
+                worldTileArray[c][r] = FileToStringLoader.parseInt(tokens[r + c * worldCols]);
+            }
+        }
     }
 
 }

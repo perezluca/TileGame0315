@@ -6,7 +6,7 @@ import java.awt.Graphics;
 public class WorldTile {
 
     // on screen tile render size
-    public static int defaultWorldTileWidth = 64, defaultWorldTileHeight = 64;
+    public static int defaultWorldTileWidth = 8, defaultWorldTileHeight = 8;
 
     protected BufferedImage texture;
 

@@ -8,7 +8,7 @@ public class GameState extends State {
 
     World world;
     public GameState() {
-        world = new World();
+        world = new World(64, 64);
     }
 
     @Override
