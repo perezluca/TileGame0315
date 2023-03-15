@@ -5,28 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be850abd-3620-48a3-b410-5ba063d761c0" name="Changes" comment="day 1">
-      <change afterPath="$PROJECT_DIR$/res/primary color spritesheet2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/worlds/thisIsMyFileName_106200.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/worlds/thisIsMyFileName_205900.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/worlds/thisIsMyFileName_342500.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/worlds/thisIsMyFileName_352100.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/worlds/thisIsMyFileName_397000.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/worlds/thisIsMyFileName_431600.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/worlds/thisIsMyFileName_470400.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/worlds/thisIsMyFileName_548700.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/worlds/thisIsMyFileName_602100.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/worlds/thisIsMyFileName_638200.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/worlds/thisIsMyFileName_650299.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/worlds/thisIsMyFileName_921500.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/worlds/thisIsMyFileName_983700.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game/utils/FileToStringLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/primary color spritesheet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/worlds/thisIsMyFileName_137599.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/worlds/thisIsMyFileName_155000.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/worlds/thisIsMyFileName_196100.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/worlds/thisIsMyFileName_201700.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/worlds/thisIsMyFileName_226800.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/worlds/thisIsMyFileName_441100.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/worlds/thisIsMyFileName_489600.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/worlds/thisIsMyFileName_7500.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/worlds/thisIsMyFileName_793200.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/worlds/thisIsMyFileName_870600.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/primaryColorSheet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/assets/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/assets/World.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/states/GameState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/states/GameState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/utils/FileGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/utils/FileGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/primary color spritesheet2.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/game/utils/WorldGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/utils/WorldGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gfx/assets/WorldTile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfx/assets/WorldTile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gfx/utils/ImageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfx/utils/ImageHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +93,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676655492246</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="day 1">
+      <created>1678828106278</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678828106278</updated>
+    </task>
+    <task id="LOCAL-00003" summary="day 1">
+      <created>1678828126938</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678828126938</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
